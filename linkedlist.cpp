@@ -50,7 +50,7 @@ class LinkedList {
   // 1. Insert a node to the list
    void InsertNode(Node * n) {
       if (nodeExists(n -> key) != NULL) {
-         cout << "Node Already exists with key value : " << n -> key << ". Insert another node with different Key value" << endl;
+         cout << "\nNode Already exists with key value : " << n -> key << ".\nInsert another node with different Key value" << endl;
       } 
       else {
          if (head == NULL) {
@@ -108,10 +108,10 @@ class LinkedList {
   // 3th printing
    void printList() {
       if (head == NULL) {
-         cout << "No Nodes in Linked List";
+         cout << "\nNo Nodes in Linked List";
       } 
       else {
-         cout << endl << "Linked List Values : ";
+         cout << endl << "\nLinked List Values : ";
          Node * temp = head;
       
          while (temp != NULL) {
